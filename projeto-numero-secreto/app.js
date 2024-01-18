@@ -2,7 +2,7 @@ alert("Tente adivinhar qual o número, de 1 até 100, que foi gerado aleatoriame
 
 let numeroSecreto = Math.floor(Math.random() * (Math.floor(100) - Math.ceil(1) + 1)) + Math.ceil(1);
 let tentativas = 0;
-let chute = prompt("Qual o número misterioso?\nTentativas: " + tentativas);
+let chute = parseInt(prompt("Qual o número misterioso? (apenas números inteiros)\nTentativas: " + tentativas));
 tentativas++;
 
 while (chute != numeroSecreto) {
@@ -13,8 +13,9 @@ while (chute != numeroSecreto) {
         alert("O seu número é MENOR do que o número misterioso. Tente novamente!");
     }
     
-    chute = prompt("Qual o número misterioso? \nTentativas: " + tentativas);
+    chute = parseInt(prompt("Qual o número misterioso? (apenas números inteiros)\nTentativas: " + tentativas));
     tentativas++;
 }
 
-alert("Parabéns! Você conseguiu acertar o número misterioso após " + tentativas + " tentativas.\n\nO número misterioso era o " + numeroSecreto + '.');
+let stringTentativa = tentativas > 1 ? "tentativas" : "tentativa";
+alert("Parabéns! Você conseguiu acertar o número misterioso após " + tentativas + " " + stringTentativa + ".\n\nO número misterioso era o " + numeroSecreto + '.');
