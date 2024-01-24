@@ -87,12 +87,12 @@ body::before, .container__conteudo {
 
 h1 {
     padding-bottom: 3rem;
-    font-size: 72px;
+    font-size: 40px;
     font-family: 'Chakra Petch', sans-serif;
 }
 
 .texto__paragrafo {
-    font-size: 32px;
+    font-size: 30px;
     font-weight: 400px;
 }
 
