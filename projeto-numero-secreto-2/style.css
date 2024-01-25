@@ -86,13 +86,14 @@ body::before, .container__conteudo {
 }
 
 h1 {
-    padding-bottom: 3rem;
-    font-size: 40px;
+    padding: 5rem 0 1rem 0;
+    font-size: 45px;
     font-family: 'Chakra Petch', sans-serif;
 }
 
 .texto__paragrafo {
-    font-size: 30px;
+    padding: 10px 0;
+    font-size: 25px;
     font-weight: 400px;
 }
 
