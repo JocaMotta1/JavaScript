@@ -1,0 +1,8 @@
+
+-----------------------------------------------------------
+
+responsiveVoice.speak: é uma função da  biblioteca ResponsiveVoice em JavaScript, que permite incorporar capacidades de texto para fala (TTS) em suas aplicações web. A função responsiveVoice.speak é usada para fazer o navegador "falar" uma determinada string de texto.
+
+Também se pode personalizar a maneira como o texto é falado, fornecendo parâmetros adicionais à função, como voz, velocidade, tom, etc. A biblioteca é frequentemente usada para aprimorar recursos de acessibilidade em sites ou para fornecer conteúdo interativo e dinâmico por meio da interação por voz. Um adendo é que, para isso funcionar, o navegador do usuário precisa ter o JavaScript habilitado, e a biblioteca precisa ser corretamente incluída no projeto em questão.
+
+-----------------------------------------------------------
